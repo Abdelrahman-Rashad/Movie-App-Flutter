@@ -15,4 +15,5 @@ I used Flutter technologye to provide this app in Android and IOS.<br />
 ## Language 
 Dart
 
-
+## Video
+[<img src="https://media.licdn.com/dms/image/C4D22AQHF6MYqV4TI_g/feedshare-shrink_2048_1536/0/1677609716662?e=1682553600&v=beta&t=d7ogi1xoyiBzS_ZziUMrn9SrZcruspcbq0BTSEASFuw" width="50%">](https://youtube.com/shorts/jc5tt1vlD3o "Movie App")
