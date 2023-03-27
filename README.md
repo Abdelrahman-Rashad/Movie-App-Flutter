@@ -1,4 +1,4 @@
-# Movies App
+# Movie App
 
 # Aiming
 This project helped me to understand Clean Architecture by Instructor: Usama Elgendy from his course Flutter Clean Architecture [2022].
