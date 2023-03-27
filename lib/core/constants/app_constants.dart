@@ -8,6 +8,9 @@ class AppConstants {
   static const String TOPRATED="movie/top_rated?api_key=$TOKEN";
   static const String POPULAR="movie/popular?api_key=$TOKEN";
 
+  static String GETDETAIL(int id)=>"movie/$id?api_key=$TOKEN";
+  static String GETRECOMMENDEDMOVIES(int id)=>"movie/$id/recommendations?api_key=$TOKEN";
+
 
   // Base Image Url
   static const BASEIMAGEURL="https://image.tmdb.org/t/p/w500";

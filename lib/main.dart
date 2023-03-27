@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:movies/core/constants/app_strings.dart';
 import 'package:movies/core/dataProvider/remote/diohelper.dart';
 import 'package:movies/core/services/services_locator.dart';
 import 'package:movies/movies/presentation/screens/movies_screen.dart';
@@ -14,8 +15,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
+      title: AppStrings.title,
       home: MainMoviesScreen(),
+      theme: ThemeData.dark().copyWith(
+        scaffoldBackgroundColor:Colors.grey[900],
+      ),
       debugShowCheckedModeBanner: false,
     );
   }
